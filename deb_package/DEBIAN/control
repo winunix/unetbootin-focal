@@ -1,0 +1,17 @@
+Package: unetbootin-focal
+Version: 677-1~focal1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 23301
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), mtools, p7zip-full, syslinux, syslinux-common, udev, extlinux, libaudio2
+Section: utils
+Priority: optional
+Provides: unetbootin (= 677-1~focal1)
+Conflicts: unetbootin (= 677-1~focal1), libqtgui4 (= 4:4.8.7+dfsg-7ubuntu3), libqt4-network (= 4:4.8.7+dfsg-7ubuntu3), libqtcore4 (= 4:4.8.7+dfsg-7ubuntu3), unetbootin-translations (= 677-1~focal1)
+Replaces: unetbootin (= 677-1~focal1), libqtgui4 (= 4:4.8.7+dfsg-7ubuntu3), libqt4-network (= 4:4.8.7+dfsg-7ubuntu3), libqtcore4 (= 4:4.8.7+dfsg-7ubuntu3), unetbootin-translations (= 677-1~focal1)
+Homepage: http://unetbootin.sourceforge.net
+Description: installer of Linux/BSD distributions to a partition or USB drive
+ UNetbootin allows for the installation of various Linux/BSD distributions to a
+ partition or USB drive, so it's no different from a standard install, only it
+ doesn't need a CD. It can create a dual-boot install, or replace the existing
+ OS entirely.
